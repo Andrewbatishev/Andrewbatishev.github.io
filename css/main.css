@@ -1,0 +1,89 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html, body {
+	background-image: url(../pics/bg.gif);
+   background-size: cover;
+	color: white;
+	font-family: "Courier New";
+   height: 100%;
+}
+
+.title {
+   height: 50px;
+   background: #FFFFFF;
+   padding-top: 20px;
+}
+
+img {
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.img {
+   text-align: center;
+   font-size: 12px;
+}
+
+.container {
+   flex: 1 0 auto;
+   width: 1000px;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+}
+.container .fs {
+   margin: 20px;
+}
+
+.container h2 {
+   margin-top: 30px;
+   color: #E61F2E;
+}
+
+.container audio {
+   margin-top: 15%;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.container video {
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.drop {
+   width: 900px;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.drop li {
+   margin-top: 3px;
+}
+
+.drop li a {
+   text-decoration: none;
+   color: #FFFFFF;
+   font-size: 16px;
+}
+
+
+.about {
+   margin-top: 20px;
+   width: 400px;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.about p {
+   text-align: left;
+   margin-top: 10px;
+}
